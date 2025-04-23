@@ -1,0 +1,66 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+1. Semantic and Well-Organized Structure
+Use semantic HTML tags: <header>, <main>, <section>, <footer>.
+
+Follow proper heading hierarchy (<h1>, <h2>, etc.).
+
+Separate concerns using reusable components (e.g., HeroSection, Features, Testimonials).
+
+2. Performance & SEO
+Use Static Site Generation (SSG) with Next.js for pre-rendering.
+
+Add proper metadata using <meta>, <title> inside next/head for SEO.
+
+Use next/image for optimized image loading and lazy loading support.
+
+3. Accessibility
+Ensure sufficient contrast between text and background.
+
+Add alt attributes to all images.
+
+Use aria-label for navigation links and buttons where necessary.
+
+4. Design & UX
+Build a Hero Section with a strong headline, supporting subtext, and a clear CTA (e.g., “Start Free Trial”).
+
+Suggested sections:
+
+The problem your SaaS solves.
+
+The AI-powered solution: how AI helps supermarkets.
+
+Direct benefits: decision-making, profit growth, waste reduction.
+
+Testimonials or real-life use cases.
+
+Call to Action (e.g., contact button, interest form).
+
+Mobile-first design from the beginning (responsive layout).
+
+5. Technologies
+Use Next.js + TailwindCSS (consider ShadCN UI for professional design components).
+
+Deploy for free using Vercel with custom domain support.
+
+Avoid unnecessary dependencies to keep the bundle size light.
+
+6. Components & Best Practices
+Store components in components/ folder.
+
+Use utility-first CSS with Tailwind (or CSS Modules if needed).
+
+Only use useEffect and useState for interactive features (e.g., scroll events, animations).
+
+Use TypeScript for better type safety and maintainability.
+
+7. Extra Best Practices
+Integrate Google Analytics (or an alternative) for visitor tracking.
+
+Include a simple form (e.g., email capture) with basic validation.
+
+
+Provide visual feedback for interactions (e.g., buttons, forms, hover effects).
