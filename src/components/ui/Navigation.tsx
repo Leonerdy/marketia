@@ -1,18 +1,8 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
 
-const navigation = [
-  { name: 'Solução', href: '#como-funciona' },
-  { name: 'Benefícios', href: '#beneficios' },
-  { name: 'Depoimentos', href: '#depoimentos' },
-  { name: 'Contato', href: '#demo' }
-];
-
 export function Navigation() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900/80 backdrop-blur-sm border-b border-gray-800/50">
       <div className="container mx-auto px-4">
