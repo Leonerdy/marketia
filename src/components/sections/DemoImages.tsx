@@ -4,8 +4,6 @@ const demoImages = [
   {
     title: "Dashboard de Vendas",
     description: "Visualize o desempenho das suas vendas em tempo real",
-    image: "/images/dashboard-sales.png",
-    alt: "Dashboard de vendas da MarketIA",
     gradient: "from-green-500 to-emerald-600",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -16,8 +14,6 @@ const demoImages = [
   {
     title: "Análise de Estoque",
     description: "Controle seu estoque com previsões inteligentes",
-    image: "/images/dashboard-inventory.png",
-    alt: "Dashboard de estoque da MarketIA",
     gradient: "from-orange-500 to-amber-600",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -28,8 +24,6 @@ const demoImages = [
   {
     title: "Relatórios Personalizados",
     description: "Acesse insights valiosos para sua gestão",
-    image: "/images/dashboard-reports.png",
-    alt: "Dashboard de relatórios da MarketIA",
     gradient: "from-red-500 to-pink-600",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
