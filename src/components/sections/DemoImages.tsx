@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 const demoImages = [
   {
     title: "Dashboard de Vendas",

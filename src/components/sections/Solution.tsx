@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 const steps = [
   {
     title: "Conexão com o banco de dados",
